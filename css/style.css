@@ -97,7 +97,6 @@ font-family: Raleway;
 
 .btn__email {
 font-size : 12px;
-
 padding : 14px 20px;
 text-decoration : none;
 transition: all 0.3s;
@@ -220,10 +219,10 @@ font-family: Lato;
   flex-wrap: wrap;
   }
 
-  .work__image {
+  .work__box {
   margin-top: 80px;
   }
-  .work__image:nth-child(-n+3){
+  .work__box:nth-child(-n+3){
   margin-top: 0;
   }
 
@@ -300,9 +299,13 @@ font-family: Lato;
     font-size: 0;
   }
 
+  .title__sub__right {
+    margin-top: 20px;
+  }
+
   .title__sub__right__theme {
   font-size: 24px;
-  margin: 20px 0 35px 0;
+  margin-bottom: 35px;
   }
 
   .title__sub__right__text {
@@ -312,7 +315,7 @@ font-family: Lato;
   }
 
   .work {
-  padding-top: 60px;
+  padding: 60px 0 70px;;
   text-align: center;
   }
 
@@ -320,17 +323,17 @@ font-family: Lato;
   margin-bottom: 40px;
   }
 
+  .work__image-group{
+    font-size: 0;
+    margin-bottom: 80px;
+  }
+
   .work__image {
-  display: block;
-  font-size: 0;
+    display: inline-block;
   }
 
-  .work__image:nth-child(3n) {
-  margin-bottom:  80px;
-  }
-
-  .work__bottom {
-  padding-bottom: 70px;
+  .work__box:nth-child(3) {
+    margin-bottom:  80px;
   }
 
   .work__bottom__email {
@@ -426,9 +429,13 @@ font-family: Lato;
   padding: 50px 0 25px;
   }
 
+  .title__sub__right {
+    margin-top: 20px;
+  }
+
   .title__sub__right__theme {
   font-size: 30px;
-  margin: 20px 0 35px 0;
+  margin-bottom: 35px;
   }
 
   .title__sub__right__text {
@@ -438,26 +445,28 @@ font-family: Lato;
   }
 
   .work {
-  padding-top: 60px;
+  padding: 60px 0 70px;;
   text-align: center;
   }
 
   .work__headline {
   margin-bottom: 40px;
   }
+  .work__image-group {
+    font-size: 0;
+    margin-bottom: 80px;
+  }
 
+  .work__box {
+    text-align: center;
+  }
+  .work__box:nth-child(3) {
+    margin-bottom:  80px;
+  }
   .work__image {
-  display: block;
-  font-size: 0;
+  display: inline-block;
   }
 
-  .work__image:nth-child(3n) {
-  margin-bottom:  80px;
-  }
-
-  .work__bottom {
-  padding-bottom: 70px;
-  }
 
   .work__bottom__email {
   margin-top: 40px;
